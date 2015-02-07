@@ -1,0 +1,11 @@
+{
+    "name": "reportr-alerts-sms",
+    "version": "1.0.0",
+    "description": "SMS alerts for your reportr instance",
+    "author": "Samy Pessé <samypesse@gmail.com>",
+    "main": "index.js",
+    "dependencies": {
+        "q": "1.0.1",
+        "twilio": "1.6.0"
+    }
+}
