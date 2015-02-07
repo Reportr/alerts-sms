@@ -22,6 +22,19 @@ module.exports = function(options) {
 
     return {
         id: "sms",
-        execute: exec
+        title: "SMS",
+        execute: exec,
+        options: {
+            to: {
+                type: "text",
+                label: "To",
+                help: "Phone number"
+            },
+            body: {
+                type: "textarea",
+                label: "Body",
+                help: "Template for the message body."
+            }
+        }
     };
 };
